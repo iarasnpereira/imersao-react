@@ -37,3 +37,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  min-height      : calc(100vh - var(--bodyPaddingTop));
+  background-color: var(--black);
+  display         : flex;
+  flex-direction  : column;
+}
